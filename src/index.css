@@ -1,0 +1,62 @@
+.container{
+    text-align: center;
+    background-color:blueviolet;
+}
+#imagen{
+    text-align:center;
+}
+#tarjetaForm{
+    background-color: white;
+    padding:10px;
+    margin:1px;
+    border-radius:5px
+}
+.cabesal{
+    display: flex;
+}
+.cabesal #titulo{
+    width: 50%;
+    color:gray;
+}
+.cabesal #idioma{
+    width: 50%;
+    display: block;
+    text-align:right;
+}
+.mb-3 .form-control{
+    width:60%;
+}
+.mb-3 #idF,#idF2{
+    width: 30%;
+}
+.mb-3 .form-label{
+    width: 28%;
+}
+.mb-3{
+    width: 100%;
+    display: flex;
+}
+.fechadn{
+    display: flex;
+}
+.fechadn .numselect{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width:60%
+}
+.fechadn .form-label{
+    font-size: 15px;
+    width: 28%;
+}
+.mb-3 .numcel{
+    display:flex;
+    width:60%;
+}
+.numcel .form-control{
+    width:80%;
+}
+#fc{
+    justify-content:center;
+}
