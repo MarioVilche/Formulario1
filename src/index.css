@@ -1,6 +1,8 @@
 .container{
     text-align: center;
     background-color:blueviolet;
+    width: 100vw;
+    height: 100vh;
 }
 #imagen{
     text-align:center;
@@ -9,7 +11,7 @@
     background-color: white;
     padding:10px;
     margin:1px;
-    border-radius:5px
+    border-radius:20px
 }
 .cabesal{
     display: flex;
@@ -41,7 +43,7 @@
 }
 .fechadn .numselect{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin: 0;
     padding: 0;
     width:60%
@@ -50,12 +52,22 @@
     font-size: 15px;
     width: 28%;
 }
+#idEH{
+    width: 50%;
+    padding-left: 28%;
+    text-align: left;
+}
+#link{
+    width: 50%;
+    padding-left: 28%;
+    text-align: left;
+}
 .mb-3 .numcel{
     display:flex;
     width:60%;
 }
 .numcel .form-control{
-    width:80%;
+    width:90%;
 }
 #fc{
     justify-content:center;
